@@ -1,0 +1,18 @@
+#showcase .showcase-content .l-heading{
+    line-height: 1.6em;
+}
+
+#what {
+    display: block;
+}
+#what .what-info {
+    flex: 2;
+    padding: 2rem 0;
+}
+#contact .location {
+    flex: 2;
+}
+.m-heading {
+    font-size: 2rem;
+    line-height: 1.5rem;
+}

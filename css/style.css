@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+    font-size: 1.3rem;;
+}
+p {
+    padding: 0.5rem;
+}
+a {
+    text-decoration: none;
+}
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.primary-text {
+    color: #0be9f7;
+}
+.btn {
+    background: #222;
+    margin-top: 0.75rem;
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #1dd7ee;
+    
+}
+.btn-dark {
+    background: #222;
+}
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: rgba(2,2,2,0.8);
+    padding: 1rem 2rem;
+    z-index: 1;
+}
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+#navbar ul li a{
+    color: #fff;
+    margin: 0 0.75rem;
+    padding: 0.5rem;
+}
+#navbar ul li a:hover {
+    background: #0be9f7;
+    border-radius: 5px;
+}
+
+#showcase {
+    background: url('../img/coffee-2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(2,2,2,0.5)
+    /* color: #0be9f7; */
+}
+.l-heading {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+#about div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+#about .about-info {
+    flex-direction: column;
+    /* display: flex; */
+}
+#about .about-info i{
+    margin: 1rem 0.5rem;
+    padding: 1.5rem;
+    background: #0be9f7;
+    border-radius: 50%;
+}
+.m-heading {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+    
+}
+#what {
+    display: flex;
+    height: 500px;
+}
+#what div {
+    flex: 1;
+}
+#what .img-content {
+    background: url('../img/code.jpg') no-repeat center center/cover;
+}
+.bg-dark {
+    background: #222;
+    color: #fff;
+}
+#what .what-info p{
+    padding: 1rem  2rem;
+}
+#what .what-info h3 {
+    text-align: center;
+}
+#what .what-info i {
+    margin-right: 0.25rem
+}
+.partners {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+.partners i{
+     margin: 3rem 0;
+} 
+
+#contact {
+    display: flex;
+}
+#contact div {
+    flex: 1;
+}
+#contact .contact-form {
+    padding: 1rem ;
+    background: #0be9f7;
+}
+#contact label {
+    display: block;
+}
+.contact-form input , .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-bottom: 2rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+}
+#contact .contact-form .btn {
+    border: none;
+}
+.contact-form textarea {
+    height: 150px;
+}
+#contact .location {
+    /* flex: 2; */
+    background: url("../img/street.jpg") no-repeat center center/cover;
+}
+footer {
+    text-align: center;
+    padding: 2rem 0;
+}
